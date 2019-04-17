@@ -318,5 +318,22 @@
 
 <script type="text/javascript" src="js/main.js"></script>
 <script type="text/javascript" src="js/custom.js"></script>
+
+
+<script type="text/javascript">
+if (window.screen) { //判断浏览器是否支持window.screen判断浏览器是否支持screen
+var myw = 500; //定义一个myw，接受到当前全屏的宽
+var myh = 400; //定义一个myw，接受到当前全屏的高
+window.moveTo(0, 0); //把window放在左上脚
+window.resizeTo(myw, myh); //把当前窗体的长宽跳转为myw和myh
+window.onresize = function () {
+window.resizeTo(myw, myh);
+}
+}
+</script>
+
+
 </body>
 </html>
+
+
