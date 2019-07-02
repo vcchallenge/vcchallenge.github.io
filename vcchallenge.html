@@ -150,11 +150,29 @@
             <div class="section-title text-center center">
                 <h2>Challenge Tasks</h2>
                 <hr>
+				<div style="font-size: 14pt">
+				<ul>
+					<li><strong><a>Task1: Video Compression Challenge</a></strong></li>
+				</ul>
+				</div>
                 <div class="welcome-message text-left" style="font-size: 14pt">
-                <p> The reference software for this challenge is DLVC, which includes both encoder and decoder functionality. The organizer welcomes any type of video compression technology. Participants are welcome to propose new technologies and integrate them into DLVC, as well as modify any existing technologies in DLVC.</p>
-                <p>	<strong>Submission Session</strong>: DLVC supports both Windows and Linux systems. If participants use the Windows system, the exe file needs to be submitted, otherwise the docker file needs to be submitted. In addition to this, runtime required files such as library files and trained models also need to be submitted simultaneously. All submitted files should be packaged and sent to <font color="blue">vcchallenge@163.com</font>.</p>
-				<p> <strong>Testing and Evaluation Session</strong>: The organizer will conduct a unified test of all tasks and submit the test results to the FVC meeting. The test set is not open until the end of challenge. <strong>Overall BD Rate</strong> and <strong>Complexity</strong> will be the main indicators of evaluation. All evaluation and test results will be released on the Internet in time. It should be noted that participants should pay attention to the complexity of the technical proposal to ensure that the organizer can complete the test tasks within two weeks, otherwise it will be considered failed. </p>
-				<p> The awards process of this challenge will be synchronized with the FVC meeting held in Chengdu in June 2019. Everyone is welcome to participate actively. The specific meeting venue will be announced later.</p>
+                <p> The organizer welcomes any type of video compression technology. Considering the diversity of the coding platform, the organizer does not make any requirements for the coding platform and provides three baselines: x264, HM16.20 and DLVC. The challenge has two tracks. </p>
+				<p> <strong>HCP Track</strong>: HCP means high compression performance. In this track, there are no restrictions on the compression technology. Participants only need to ensure a certain degree of complexity so that the solution can be tested within the specified time. </p>
+				<p> <strong>HDE Track</strong>: HDE means high decoding efficiency. In this track, decoding efficiency will be an important indicator. The solution with a decoding complexity of no more than 50 times (CPU) of VTM5.0 will be automatically included in this track.</p>
+                <p>	<strong>Submission Session</strong>: Participants need to package the technical solution into an executable file or docker file. In addition to this, runtime required files such as library files and trained models also need to be submitted simultaneously. All submitted files should be packaged and sent to <font color="blue">vcchallenge@163.com</font>. </p>
+				<p>	<strong>Testing Session</strong>: The organizer will conduct a unified test of all tasks and submit the test results to the FVC meeting. All evaluation and test results will be released on the Internet in time. The test set will not be published, but we will provide test results on three baselines for reference. </p>
+				<p> <strong>Evaluation Session</strong>: Overall BD Rate and Complexity will be the main indicators of evaluation. In addition to the objective evaluation indicators, the participants will also state the advancement, novelty and other possible superior properties of the technical solutions at the FVC meeting for consideration by the FVC expert group. The final evaluation result will be a combination of objective indicators and subjective ratings.</p>
+				<p> The awards process of this challenge will be synchronized with the FVC meeting held in HaiKou in Aug 2019. Everyone is welcome to participate actively. The specific meeting venue will be announced later.</p>
+                </div>
+				<div style="font-size: 14pt">
+				<ul>
+					<li><strong><a>Task2: Open Source Challenge</a></strong></li>
+				</ul>
+				</div>
+				<div class="welcome-message text-left" style="font-size: 14pt">
+                <p> In order to promote in-depth communication and technology sharing in this field of image and video compression, the organizer will organize an open source competition. We hope to provide a platform for researchers in the field to showcase, communicate and share their work. </p>
+				<p> The organizer welcomes any articles published in international journals and international conferences in the field of image and video coding in the past two years. If you are willing to share your work and promise to open source the code related to the articles, the organizer will welcome you to participate and you will have the chance to win a certain bonus.</p>
+				<p> Each participant will need to provide a poster to describe the technical solution of the article and make a brief introduction and sharing on the day of the meeting. After the meeting, the organizers will select some excellent entries and provide award certificates and bonuses.</p>
                 </div>
             </div>
         </div>
@@ -172,18 +190,21 @@
                 <hr>
                 <ul class="welcome-message text-left" style="font-size: 14pt">
                     <li class="welcome-message text-left">
-                        <strong>June  1st, 2019: </strong>Submission of technical proposals (exe/docker, etc.)
+                        <strong>Aug  15th, 2019: </strong>Submission of technical proposals (exe/docker, etc.)
                     </li>
                     <li class="welcome-message text-left">
-                        <strong>June 12th, 2019: </strong>Submission of documents describing the proposals
+                        <strong>Aug 28th, 2019: </strong>Submission of documents describing the proposals
+                    </li>
+					<li class="welcome-message text-left">
+                        <strong>Aug 28th, 2019: </strong>Submission of posters for Open Source Challenge
                     </li>
 
                     <li class="welcome-message text-left">
-                        <strong>June 14th, 2019: </strong>Test results available within challenge organizer
+                        <strong>Aug 30th, 2019: </strong>Test results available within challenge organizer
                     </li>
 
                     <li class="welcome-message text-left">
-                        <strong>June 15th, 2019: </strong>Evaluation of proposals at FVC meeting and Award (in Chengdu)
+                        <strong>Aug 31st, 2019: </strong>Evaluation of proposals at FVC meeting and Award (in HaiKou)
                     </li>
 
                 </ul>
@@ -222,6 +243,10 @@
 				<p class="welcome-message text-left" style="font-size: 14pt">
 					This challenge uses a new set of test sequences, which is different from the existing test sequences. In order to ensure the fairness, the organizer will not publish the testing set until the end of this challenge.</p>
 				<p></p>
+				<ul>
+					<li><strong><a> Poster template</a></strong></li>
+				</ul>
+				<li><strong><a href="./img/poster.pptx" download="poster.pptx"><font color="black" style="font-size: 12pt"><u>Click to download poster template</u></font></a></strong></li>
                 </div>
             </div>
         </div>
@@ -256,7 +281,7 @@
 					</tr>
 				</thead>
 				<tbody id="leaderboard">
-				<tr><td>test</td><td>-0.0%</td><td>100%</td><td>100%</td><td>2019-04-16 15:00</td></tr></tbody>
+				<tr><td>test</td><td>-0.0%</td><td>100%</td><td>100%</td><td>2019-07-01 15:00</td></tr></tbody>
 			</table>
             </div>
         </div>
