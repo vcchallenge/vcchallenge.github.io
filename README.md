@@ -1,1 +1,0 @@
-vcchallenge.github.io/vcchallenge
