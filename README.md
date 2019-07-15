@@ -1,2 +1,1 @@
-# vcchallenge.github.io
-Website of 2019 Video Compression
+[https://vcchallenge.github.io/vcchallenge]https://vcchallenge.github.io/vcchallenge
