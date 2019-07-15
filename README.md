@@ -1,1 +1,1 @@
-[https://vcchallenge.github.io/vcchallenge]https://vcchallenge.github.io/vcchallenge
+start https://vcchallenge.github.io/vcchallenge
